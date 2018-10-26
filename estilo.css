@@ -5,7 +5,7 @@ body{
 }
 header{
 	background: url("img/bg-header.jpg");
-	height: 659px;
+	height: 690px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -75,4 +75,42 @@ li a{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
+}
+#final{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#final a{
+	background: rgba(217,216,216,0.9); 
+	border-radius: 15px;
+	text-align: center;
+	height:26px;
+	width: 140px;
+	color: #000;
+	padding:2px 1px;
+}
+.fa-arrow-down{
+	width: 13px;
+	height: 14px;
+	padding: 0.7px;
+}
+.wwd{
+	text-align: center;
+    margin: 45px;
+	color: grey;
+	}
+
+.barra{
+    width: 45px;
+    height: 1px;
+    background: black;
+    margin-top: -35px;
+}
+
+.lorem{
+	color: grey;
+	text-align: center;
+	align-content: center;
 }
