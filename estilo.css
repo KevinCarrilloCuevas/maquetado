@@ -99,7 +99,7 @@ li a{
 .wwd{
 	text-align: center;
     margin: 45px;
-	color: grey;
+	color: #b2b1b1;
 	}
 
 .barra{
@@ -110,7 +110,71 @@ li a{
 }
 
 .lorem{
-	color: grey;
-	text-align: center;
-	align-content: center;
+	color: #b7b3b3;
 }
+article{
+	margin-top: 55px;
+	display:inline-block;
+	background: rgba(217,216,216,0.5); 
+	border-radius: 20px;
+	width: 150px;
+	height: 150px;
+
+}
+
+#iconos{
+	margin-top: 20px;
+	color: #54d154;
+	height: 100px;
+	width: 100px;
+}
+.izquierda{
+float: left;
+margin-left: 220px;
+display: block;
+margin-top: 30px;
+}
+.enmedio{
+float: left;
+margin-left: 215px;
+display: block;
+margin-top: 30px;
+}
+.derecha{
+float: right;
+margin-right: 200px;
+display: block;
+margin-top: 30px;
+}
+
+b{
+	
+	margin-top: 20px;
+    color: #828181;
+}
+
+#texto{
+	margin-top: 90px;
+	display:block;
+	text-align: center;
+}
+#reparar{
+	margin-left: 150px;
+}
+#reparar2{
+	margin-left: 40px;
+}
+#reparar3{
+	margin-left: 30px;
+}
+#botonesl a{
+    background:#54d154; 
+	border-radius: 15px;
+	text-align: center;
+	height:33px;
+	width: 130px;
+	color: white;
+	padding-top: 4px;
+	margin-left: 250px;
+	margin-top: 10px;
+	margin-bottom: 80px;
