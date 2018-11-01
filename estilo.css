@@ -5,7 +5,7 @@ body{
 }
 header{
 	background: url("img/bg-header.jpg");
-	height: 690px;
+	height: 700px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -47,7 +47,7 @@ li a{
 	height: 596px;
 
 }
-#centradito{
+#centradito,#im-center,.bt-center{
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -102,7 +102,7 @@ li a{
 	color: #b2b1b1;
 	}
 
-.barra{
+.barra,.b-olw{
     width: 45px;
     height: 1px;
     background: black;
@@ -178,3 +178,48 @@ b{
 	margin-left: 250px;
 	margin-top: 10px;
 	margin-bottom: 80px;
+}
+#bg-verde{
+	background: #54d154;
+	height: 750px;
+	width: 100%;
+}
+#olw{
+	text-align: center;
+	color:#207b20;
+	padding-top: 42px;
+}
+.b-olw{
+	margin-top: 15px;
+	color:#207b20;
+}
+.btn-group{
+	margin-top:64px;
+}
+.active,.left,.center{
+	border-radius: 25px;
+	background: white;
+	color: #2b9b2b;
+	border-color: #2b9b2b;
+}
+.btn-group label:hover{
+	background: #2b9b2b;
+}
+.imagenes img{
+	height: 160px;
+	width: 160px;
+	margin-top: 60px;
+	margin-left: 30px;
+	display:center;
+}
+.imagenes2 img{
+	height: 160px;
+	width: 160px;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.bt-center button {
+	margin-top: 30px;
+	border-radius:30px;
+	height: 40px;
+}
