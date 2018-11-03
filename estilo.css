@@ -184,7 +184,7 @@ b{
 	height: 750px;
 	width: 100%;
 }
-#olw{
+#olw,.test{
 	text-align: center;
 	color:#207b20;
 	padding-top: 42px;
@@ -222,4 +222,36 @@ b{
 	margin-top: 30px;
 	border-radius:30px;
 	height: 40px;
+}
+#bg-testimonials{
+	height: 340px;
+}
+.test{
+	color: #828181;
+}
+.b-test{
+	height:1px; 
+	width:40px;
+	background:black;
+}
+.autor_testimonial{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.derecho_autor h3{
+	color:#444;
+	font-size: 16px;
+}
+.derecho_autor h4{
+	color:#ccc;
+	font-size: 16px;
+	font-weight: 400px;
+}
+.izquierdo_autor img{
+	height: 38px;
+    width: 38px;
+}
+.slick-prev:before,.slick-next:before{
+	color: #444;
 }
